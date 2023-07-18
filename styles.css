@@ -1,0 +1,59 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background: url(https://images.unsplash.com/photo-1528458909336-e7a0adfed0a5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=748&q=80);   
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+  }
+
+
+.list-group-item {
+    position: relative;
+  }
+  
+  .list-group-item .delete-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+  }
+  
+  .list-group-item {
+    position: relative;
+    display: block;
+    padding: .75rem 1.25rem;
+    margin-bottom: -1px;
+    background-color: #e9ecef;
+    border: 1px solid #212529;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #dee2e6;
+    background-clip: padding-box;
+    border: 1px solid #000;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+button, input, optgroup, select, textarea {
+   
+    font-family: ui-rounded;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #bd2130;
+    width: 120px;
+    height: 42px;
+}
